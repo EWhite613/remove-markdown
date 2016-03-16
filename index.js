@@ -19,7 +19,7 @@ module.exports = function(md, options) {
     }
     output = output
       // Remove HTML tags
-      .replace(/<(.*?)>/g, '$1')
+      .replace(/<[\w|\s|=|\'|\"|\:|\(|\)|\,|\;|\/|0-9|\.|-]+[>|\\>]/g, '')
       // Remove setext-style headers
       .replace(/^[=\-]{2,}\s*$/g, '')
       // Remove footnotes?
