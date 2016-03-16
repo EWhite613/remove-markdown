@@ -27,7 +27,8 @@ var plainText = removeMd(markdown, {
 ```
 
 Stripping list headers will retain any list characters (`*, -, +, (digit).`).
-
+## Contributing
+Feel free to submit PR's of any work
 ## Credits 
 Code is based on [Remove Markdown] (https://github.com/stiang/remove-markdown) by Stian Grytøyr
 ## Credits - Credits
