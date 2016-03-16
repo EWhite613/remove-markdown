@@ -7,7 +7,7 @@ The typical use case is to display an excerpt of a Markdown text, without the ac
 ## Installation
 
 ```
-npm install remove-markdown
+npm install remove-markdown-and-html
 ```
 
 ## Usage
@@ -28,8 +28,10 @@ var plainText = removeMd(markdown, {
 
 Stripping list headers will retain any list characters (`*, -, +, (digit).`).
 
-## Credits
+## Credits 
+Code is based on [Remove Markdown] (https://github.com/stiang/remove-markdown) by Stian Grytøyr
+## Credits - Credits
 The code is based on [Markdown Service Tools - Strip Markdown](http://brettterpstra.com/2013/10/18/a-markdown-service-to-strip-markdown/) by Brett Terpstra.
 
 ## Author
-Stian Grytøyr
+Eric White
