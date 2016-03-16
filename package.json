@@ -1,24 +1,21 @@
 {
-  "name": "remove-markdown",
+  "name": "remove-markdown-and-html",
   "version": "0.1.0",
-  "description": "Remove Markdown formatting from text",
+  "description": "Remove Markdown formatting from text and html (including attributes)",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha -R spec test/remove-markdown.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/stiang/remove-markdown.git"
+    "url": "https://github.com/EWhite613/remove-markdown-and-html.git"
   },
   "keywords": [
     "markdown"
   ],
-  "author": "Stian Grytøyr",
+  "author": "Eric White",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/stiang/remove-markdown/issues"
-  },
-  "homepage": "https://github.com/stiang/remove-markdown",
+  "homepage": "https://github.com/EWhite613/remove-markdown-and-html",
   "devDependencies": {
     "mocha": "^2.1.0",
     "should": "^5.0.0"
