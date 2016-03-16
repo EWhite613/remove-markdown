@@ -12,7 +12,7 @@ npm install remove-markdown-and-html
 
 ## Usage
 ```js
-var removeMd = require('remove-markdown');
+var removeMd = require('remove-markdown-and-html');
 var markdown = '# This is a heading\n\nThis is a paragraph with [a link](http://www.disney.com/) in it.';
 var plainText = removeMd(markdown); // plainText is now 'This is a heading\n\nThis is a paragraph with a link in it.'
 ```
